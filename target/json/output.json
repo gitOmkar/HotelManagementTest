@@ -1,0 +1,64 @@
+[
+  {
+    "id": "my-first-feature-or-user-story",
+    "description": "",
+    "name": "My First Feature or User Story",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "my-first-feature-or-user-story;my-first-scenario",
+        "tags": [
+          {
+            "name": "@Wiki",
+            "line": 3
+          }
+        ],
+        "description": "",
+        "name": "My First Scenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 4897667720,
+              "status": "passed"
+            },
+            "name": "I am on website",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "Steps.i_am_on_website()"
+            }
+          },
+          {
+            "result": {
+              "duration": 476878984,
+              "status": "passed"
+            },
+            "name": "I click on link",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "Steps.i_click_on_link()"
+            }
+          },
+          {
+            "result": {
+              "duration": 466453538,
+              "status": "passed"
+            },
+            "name": "Navigated page should be correct",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "Steps.navigated_page_should_be_correct()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "MyFirstFeatureFile.feature"
+  }
+]
