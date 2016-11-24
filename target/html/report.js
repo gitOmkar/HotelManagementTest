@@ -39,21 +39,21 @@ formatter.match({
   "location": "Steps.i_am_on_website()"
 });
 formatter.result({
-  "duration": 4897667720,
+  "duration": 17420298131,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_click_on_link()"
 });
 formatter.result({
-  "duration": 476878984,
+  "duration": 496842273,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.navigated_page_should_be_correct()"
 });
 formatter.result({
-  "duration": 466453538,
+  "duration": 510898192,
   "status": "passed"
 });
 });
